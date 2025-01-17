@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+
+      body{
+        overflow-x: hidden;
+        font-family: 'Roboto', sans-serif;
+      }
+      /* parent nav section */
+      .nav_section {
+        height: 72px;
+        width: 100%;
+        background-color: #1a2224;
+        float: left;
+      }
+      /* first nav section */
+      .nav_section1 {
+        height: 100%;
+        width: 25%;
+        /* background-color: rgb(172, 141, 141); */
+        float: left;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+      }
+      .nav_section1 img {
+        height: 49%;
+        width: 60%;
+        margin-left: 16%;
+      }
+      /* second nav section */
+      .nav_section2 {
+        height: 100%;
+        width: 50%;
+        /* background-color: rgb(122, 228, 110); */
+        float: left;
+        display: flex;
+        justify-content: left;
+        padding-left: 0;
+      }
+      .nav_section2 a {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 17px;
+      }
+      .nav_section2.menu_bar {
+        height: 100%;
+        width: 100%;
+        background-color: yellowgreen;
+        text-align: center;
+      }
+
+      .menu_bar li {
+        display: inline-block;
+        margin-top: 25px;
+        margin-left: 20px;
+      }
+
+      /* section 3 */
+      .nav_section3 {
+        height: 100%;
+        width: 25%;
+        /* background-color: rgb(187, 93, 93); */
+        float: left;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .nav_section3 img {
+        height: 24px;
+        width: 24px;
+        margin-left: 32%;
+      }
+
+      /* hero section */
+      .hero {
+        height: 308px;
+        width: 100%;
+        background-color: aqua;
+        float: left;
+      }
+      .hero img {
+        height: 100%;
+        width: 100%;
+      }
+
+      /* cards section */
+      .trending {
+        height: 195px;
+        width: 100%;
+        background-color: black;
+        float: left;
+        /* padding-left:   4%; */
+        padding-top:    1.7%;
+        padding-bottom: 1.7%;
+      }
+      .h3 h2 {
+        margin-left: 4%;
+        color: white;
+        font-size: 23px;
+      }
+     
+     .cards1 img{
+
+        height: 85%;
+        width: 18%;
+        margin-top: 1%;
+        margin-left: 1%;
+        border-radius: 4px;
+
+      }
+      .popular{
+        height: 195px;
+        width: 100%;
+        background-color: black;
+        float: left;
+        /* padding-left:   4%; */
+        padding-top:    1.7%;
+        padding-bottom: 1.7%;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <!-- nav section starts here -->
+      <nav class="nav_section">
+        <div class="nav_section1">
+          <img src="./assets/amazon.svg" alt="amazon" />
+          <!-- <img src="./assets/mxplayer.svg" alt="mxplayer"> -->
+        </div>
+        <div class="nav_section2">
+          <ul class="menu_bar">
+            <li><a href="">Home</a></li>
+            <li><a href="">New&Hot</a></li>
+            <li><a href="">Web Series</a></li>
+            <li><a href="">Movies</a></li>
+            <li><a href="">VDesi</a></li>
+            <li><a href="">Romance</a></li>
+            <li><a href="">Comedy</a></li>
+            <li><a href="">Tamil</a></li>
+            <li><a href="">Telagu</a></li>
+          </ul>
+        </div>
+        <div class="nav_section3">
+          <img src="./assets/search.svg" alt="Search" style="cursor:pointer;"/>
+          <img
+            src="./assets/amazonlogo.svg"
+            alt="Amazon"
+            style="margin-left: 10%; cursor:pointer;"
+          />
+          <img
+            src="./assets/settings.svg"
+            alt="settings"
+            style="margin-left: 10%;cursor:pointer;"
+          />
+        </div>
+      </nav>
+
+      <section class="hero">
+        <a href="https://www.amazon.in/minitv/tp/amzn1.dv.gti.c6035054-a4b6-437e-8c0c-21dd1f7a4b39">
+          <img src="./assets/hero.jpeg" alt="" />
+        </a>
+      </section>
+
+      <section class="trending">
+        <div class="h3" style="height: 10%; width: 100%;">
+            <h2>Trending top 10</h2>
+        </div>
+        <div class="cards1" style="height: 90%; width: 100%; margin-left: 4%;">
+            <a href="https://www.amazon.in/minitv/tp/5a385d35-95a5-4ce0-9616-ad83717ce3c0"><img src="./assets/t1.jpg" alt=""></a>
+            <a href="https://www.amazon.in/minitv/tp/d9cf0355-7c06-42b1-bf07-d9210758747d"><img src="./assets/t2.jpg" alt=""></a>
+            <a href="https://www.amazon.in/minitv/tp/81a7b98f-cad8-434d-baee-16b0a229cbcb"><img src="./assets/t3.jpg" alt=""></a>
+            <a href="https://www.amazon.in/minitv/tp/a1b967c4-96a4-415e-8ab3-8f309731090a"><img src="./assets/t4.jpg" alt=""></a>
+            <a href="https://www.amazon.in/minitv/tp/59635ce8-3ac7-4457-a6eb-69a974db4210"><img src="./assets/t5.jpg" alt=""></a>
+        </div>
+        
+      </section>
+
+      <section class="popular">
+        <div class="h3" style="height: 10%; width: 100%;">
+            <h2>Popular Web Series</h2>
+        </div>
+        <div class="cards1" style="height: 90%; width: 100%; margin-left: 4%;">
+            <a href="https://www.amazon.in/minitv/tp/f2bc48d1-2805-7c64-5bdd-9db55d6bb707"><img src="./assets/p1.jpg" alt=""></a>
+            <a href="https://www.amazon.in/minitv/tp/cbf584e6-5185-4ce2-a00c-9dbb6df13346"><img src="./assets/p2.jpg" alt=""></a>
+            <a href="https://www.amazon.in/minitv/tp/2e3eca6a-ad62-456c-bca6-c6f4700c7a86"><img src="./assets/p3.jpg" alt=""></a>
+            <a href="https://www.amazon.in/minitv/tp/e37464e3-8a99-41ff-aeb6-ba4fa2609185"><img src="./assets/p4.jpg" alt=""></a>
+            <a href="https://www.amazon.in/minitv/tp/6fc25bf8-cfeb-4e2c-8a9b-9acc67a393fa"><img src="./assets/p5.jpg" alt=""></a>
+      </section>
+
+      <section class="popular">
+        <div class="h3" style="height: 10%; width: 100%;">
+            <h2>Horror, Thriller & Mistery</h2>
+        </div>
+        <div class="cards1" style="height: 90%; width: 100%; margin-left: 4%;">
+            <a href="https://www.amazon.in/minitv/tp/f2bc48d1-2805-7c64-5bdd-9db55d6bb707"><img src="./assets/m1.jpg" alt=""></a>
+            <a href="https://www.amazon.in/minitv/tp/cbf584e6-5185-4ce2-a00c-9dbb6df13346"><img src="./assets/m2.jpg" alt=""></a>
+            <a href="https://www.amazon.in/minitv/tp/2e3eca6a-ad62-456c-bca6-c6f4700c7a86"><img src="./assets/m3.jpg" alt=""></a>
+            <a href="https://www.amazon.in/minitv/tp/e37464e3-8a99-41ff-aeb6-ba4fa2609185"><img src="./assets/m4.jpg" alt=""></a>
+            <a href="https://www.amazon.in/minitv/tp/6fc25bf8-cfeb-4e2c-8a9b-9acc67a393fa"><img src="./assets/m5.jpg" alt=""></a>
+      </section>
+    </main>
+  </body>
+</html>
